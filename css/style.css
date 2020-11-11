@@ -121,3 +121,74 @@ a.btn:hover {
   margin-bottom: 40px;
   color: white;
 }
+
+/* Main Top */
+.main-top {
+  height: 150px;
+  background-color: #d3d3d3;
+  position: relative;
+  text-align: center;
+}
+
+.main-top .text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.main-top .text p {
+  margin-top: 10px;
+  color: #999999;
+}
+
+/* Main Mid T */
+.main-mid-t {
+  margin: 30px auto 30px;
+}
+
+.main-mid-t div {
+  display: inline-block;
+  width: calc(33% - 60px);
+  margin: 0 30px;
+}
+
+.main-mid-t img {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.main-mid-t h3 {
+  color: #7cbb02;
+}
+
+.main-mid-t hr {
+  margin: 20px auto;
+  width: 80px;
+}
+
+.main-mid-t p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #999999;
+}
+
+/* Main Mid B */
+
+.main-mid-b .box {
+  width: 50%;
+  float: left;
+  display: inline-block;
+}
+
+.main-mid-b .img {
+  text-align: center;
+}
+
+.main-mid-b img {
+  width: 80%;
+}
+
+.main-mid-b .text {
+  width: 80%;
+}
