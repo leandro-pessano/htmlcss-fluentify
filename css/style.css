@@ -175,21 +175,16 @@ a.btn:hover {
 }
 
 /* Main Mid B */
+.main-mid-b {
+  padding: 30px 100px;
+}
 
-.main-mid-b .box {
+.main-mid-b div {
   width: 50%;
   float: left;
-  display: inline-block;
 }
 
-.main-mid-b .img {
-  text-align: center;
-}
 
 .main-mid-b img {
-  width: 80%;
-}
-
-.main-mid-b .text {
   width: 80%;
 }
