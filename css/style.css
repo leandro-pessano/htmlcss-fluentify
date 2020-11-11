@@ -5,12 +5,11 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
-  width: 80%;
-  height: 100%;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -24,9 +23,26 @@ body {
   clear: both;
 }
 
+.bg-green {
+  background-color: #7cbb02;
+}
+
+.border-white {
+  border: 1px solid white;
+}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.btn.large {
+  padding: 20px 30px;
+  font-size: 12px;
+}
+
 /* Header */
 header {
-  height: 400px;
   background-color: #0c325a;
   background-image: url(../img/background-header.png);
   background-size: 50%;
@@ -37,6 +53,7 @@ header {
 header a {
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: bold;
   color: white;
 }
 
@@ -44,32 +61,63 @@ header a:hover {
   text-decoration: underline;
 }
 
+a.btn:hover {
+  text-decoration: none;
+}
+
  /* Top Bar */
 .top-bar {
-  height: 20%;
-  /* background-color: lightblue; */
+  width: 100%;
+  line-height: 60px;
+  text-align: center;
 }
 
 .top-bar .logo {
-
+  width: 10%;
+  height: 60px;
+  text-align: left;
 }
+
+.top-bar .logo img {
+  margin-top: 10px;
+}
+
 
 .top-bar ul {
   list-style: none;
-  padding: 0 30px;
 }
 
 .top-bar ul li {
-  font-size: 12px;
+  margin: 0 10px;
+  font-size: 10px;
   display: inline-block;
 }
 
-.top-bar .interact {
+.top-bar nav {
+  width: 50%;
+}
 
+.top-bar .interact {
+  width: 40%;
+  text-align: right;
 }
 
 /* Jumbotron */
 .jumbotron {
-  height: 70%;
-  /* background-color: lightgreen; */
+  height: 340px;
+  position: relative;
+}
+
+.jumbotron .text {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0 , -50%);
+}
+
+.jumbotron .text h1 {
+  font-size: 42px;
+  margin-bottom: 40px;
+  color: white;
 }
