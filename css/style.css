@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  height: 400px;
+  background-color: violet;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.top-bar {
+  height: 20%;
+  background-color: lightblue;
+}
+
+.jumbotron {
+  height: 70%;
+  background-color: lightgreen;
+}
