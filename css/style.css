@@ -145,6 +145,7 @@ a.btn:hover {
 /* Main Mid T */
 .main-mid-t {
   margin: 30px auto 30px;
+  text-align: center;
 }
 
 .main-mid-t div {
