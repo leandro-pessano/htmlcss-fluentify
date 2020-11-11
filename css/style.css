@@ -8,23 +8,68 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-header {
-  height: 400px;
-  background-color: violet;
-}
-
 .container {
   width: 80%;
   height: 100%;
   margin: 0 auto;
 }
 
-.top-bar {
-  height: 20%;
-  background-color: lightblue;
+.float-left {
+  float: left;
 }
 
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Header */
+header {
+  height: 400px;
+  background-color: #0c325a;
+  background-image: url(../img/background-header.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 108% 108%;
+}
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+ /* Top Bar */
+.top-bar {
+  height: 20%;
+  /* background-color: lightblue; */
+}
+
+.top-bar .logo {
+
+}
+
+.top-bar ul {
+  list-style: none;
+  padding: 0 30px;
+}
+
+.top-bar ul li {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.top-bar .interact {
+
+}
+
+/* Jumbotron */
 .jumbotron {
   height: 70%;
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
 }
